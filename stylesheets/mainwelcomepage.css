@@ -19,7 +19,9 @@ body {
 }
 p{
 	font-family: 'Lobster Two', cursive;
-	color: white;
+	color: #FFFFFF;
+	opacity: 0.2;
+	background-color: #C9C9C9;
 }
 .container-fluid {
 	padding-top: 200px;
