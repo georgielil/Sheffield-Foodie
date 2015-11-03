@@ -4,8 +4,18 @@
 .navbar-brand {
     font-family: 'Lobster Two', cursive;
 }
+.navbar-inverse {
+  background-color: black;
+}
 body {
 	background-color: #E1C3A6;
+}
+.header{
+  height: 20px;
+  background: #F0F0F0;
+  border: 1px solid #CCC;
+  width: 960px;
+  margin: 0px auto;
 }
 li {
     font-family: 'Lobster Two', cursive;
@@ -15,18 +25,24 @@ h1 {
     text-align: center;
   	color: white;
   	position: relative;
-  	padding-top: 90px;
+  	padding-top: 100px;
     padding-left: 35px;
     padding-right: 35px;
-    font-size: 50px;
+    font-size: 30px;
+    border: 25px solid black;
+    background-color: black;
 }
 #social-buttons {
-	padding-top: 75px;
+	padding-top: 30px;
+  padding-bottom: 30px;
+  border: 1px solid black;
+  background-color: black;
+  position: relative;
 }
 .form-horizontal {
   margin: 35px auto;
 	position: relative;
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-left: 500px;
 	padding-right: 500px;
   color: white;
