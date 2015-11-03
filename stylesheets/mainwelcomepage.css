@@ -2,7 +2,7 @@
 	font-family: 'Lobster Two', cursive;
 }
 .navbar-inverse {
-	background-color: rgb(0,0,0);
+	background-color: black;
 }
 li {
 	font-family: 'Lobster Two', cursive;
@@ -14,14 +14,11 @@ h1 {
 	font-size: 80px;
 }
 body {
-	padding-bottom: 70px;
 	background-image: url("images/sheffieldfoodie1.jpg");
 }
 p{
 	font-family: 'Lobster Two', cursive;
-	color: #FFFFFF;
-	opacity: 0.2;
-	background-color: #C9C9C9;
+	color: #C6C6C6;
 }
 .container-fluid {
 	padding-top: 200px;
@@ -29,10 +26,7 @@ p{
 .text-center {
 	font-size: 50px;
 }
-#social-buttons button {
-	margin-top: 50px;
+.social-buttons {
+	width: 150px;
+	height: 80px;
 	color: white;
-}
-.container {
-	background-color: rgb(0,0,0);
-}

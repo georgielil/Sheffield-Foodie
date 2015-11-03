@@ -3,9 +3,7 @@
 <head>
     <link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
     <link href='dist/css/bootstrap.css' rel='stylesheet'>
-    <script src="js/blur.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
-  <script src = "//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link href ='stylesheets/suggestions.css' rel='stylesheet'>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,26 +12,7 @@
 </head>
 <body>
     <style>
-.container {
-    background-color: rgb(0,0,0);
-}
-.navbar-brand {
-    font-family: 'Lobster Two', cursive;
-}
-li {
-    font-family: 'Lobster Two', cursive;
-}
-h1 {
-    font-family: 'Lobster Two', cursive;
-    text-align: center;
-  color: white;
-  position: absolute;
-  margin: 15% 10%;
-}
-body {
-  background-image: #B3D9FF
-}
-</style>
+    </style>
 <body>
      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -55,10 +34,29 @@ body {
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<div class="Intro">
-  <h1> Welcome message.... who we are....... </h1>
-</div>
-    <div class="main-content">
+<form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputname" class="col-sm-2 control-label">Name </label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputname" placeholder="Name">
+    </div>
+  </div>
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+    <label for="inputcomment" class="col-sm-2 control-label">Comment</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" rows="3"></textarea>
+    </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
+    <!-- <div class="main-content">
         <form class="form-basic" method="post" action="#">
 
             <div class="form-title-row">
@@ -86,19 +84,11 @@ body {
                     <textarea name="textarea"></textarea>
                 </label>
             </div>
-
-            <div class="form-row">
-                <label>
-                    <span>Checkbox</span>
-                    <input type="checkbox" name="checkbox" checked>
-                </label>
-            </div>
-
-
             <div class="form-row">
                 <button type="submit">Submit Form</button>
             </div>
 
         </form>
     </div>
+  -->
 </body>
