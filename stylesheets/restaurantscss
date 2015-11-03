@@ -1,0 +1,37 @@
+.navbar-brand {
+	font-family: 'Lobster Two', cursive;
+}
+.navbar-inverse {
+	background-color: rgb(0,0,0);
+}
+li {
+	font-family: 'Lobster Two', cursive;
+}
+h1 {
+	font-family: 'Lobster Two', cursive;
+	text-align: center;
+	color: white;
+	position: absolute;
+	margin: 15% 10%;
+}
+body {
+	padding-bottom: 70px;
+	background-color: #B3D9FF;
+}
+p{
+	font-family: 'Lobster Two', cursive;
+	color: white;
+}
+.container-fluid {
+	padding-top: 200px;
+}
+.text-center {
+	font-size: 50px;
+}
+#social-buttons button {
+	margin-top: 50px;
+	color: white;
+}
+.container {
+	background-color: rgb(0,0,0);
+}
