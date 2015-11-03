@@ -35,7 +35,13 @@ a:hover {
 }
 .text-center {
 	font-size: 50px;
+}
+.text-center1{
 	font-style: italic;
+	text-align: center;
+	font-size: 35px;
+	padding-left:300px;
+	padding-right:300px;
 }
 .social-buttons {
 	width: 150px;
