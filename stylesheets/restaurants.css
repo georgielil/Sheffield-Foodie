@@ -13,6 +13,13 @@ h1 {
 	color: white;
 	padding-top: 70px;
 }
+#luckyfox h2 {
+	font-family: 'Lobster Two', cursive;
+	text-align: left;
+	color: white;
+	font-size: 50px;
+	font-style: italic;
+}
 body {
 	background-color: #E1C3A6;
 }
@@ -48,4 +55,14 @@ a:hover {
 	width: 300px;
 	height: auto;
 	padding-top: 37px;
+}
+#luckyfox h1 {
+	font-size: 200px;
+	text-align: left;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
 }
