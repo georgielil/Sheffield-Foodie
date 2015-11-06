@@ -46,14 +46,13 @@ a {
 	text-align: center;
 	font-size: 20px;
 }
-#images_hz {
+
+#luckyfoximages img {
+	display: inline;
+	margin: 0 10px;
 	width: 960px;
 	height: auto;
 	overflow: hidden;
-}
-#luckyfoximagesimg {
-	display: inline;
-	margin: 0 10px;
 }
 a:hover {
 	color:#C9C9C9;
