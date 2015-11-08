@@ -70,9 +70,15 @@ a:hover {
 .resize{
 	width: 300px;
 	height: auto;
+	padding-top: 37px;
 }
 .resize2 {
-	width: 300px;
+	width: 150px;
+	height: auto;
+	padding-top: 37px;
+}
+.resize3 {
+	width: 175px;
 	height: auto;
 	padding-top: 37px;
 }
