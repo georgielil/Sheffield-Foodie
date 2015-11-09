@@ -53,6 +53,7 @@ a {
 	height: auto;
 	overflow: hidden;
 	border: 2px solid black;
+	position: relative;
 }
 a:hover {
 	color:#C9C9C9;
