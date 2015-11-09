@@ -1,0 +1,23 @@
+{
+  "name": "jquery-photo-enlarger",
+  "version": "0.0.0",
+  "authors": [
+    "Brent O'Connor <epicserve@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "example"
+  ],
+  "dependencies": {
+    "jquery": "~1.10.2",
+    "imagesloaded": "~3.0.4"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.0.2"
+  }
+}
