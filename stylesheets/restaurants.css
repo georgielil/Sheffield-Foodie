@@ -50,11 +50,13 @@ a:hover {
 .resize{
 	width: 300px;
 	height: auto;
+	border: 10px solid black;
 }
 .resize2 {
 	width: 300px;
 	height: auto;
-	padding-top: 37px;
+	border: 10px solid black;
+	margin-top: 35px;
 }
 #luckyfox h1 {
 	font-size: 200px;
