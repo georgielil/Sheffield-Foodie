@@ -61,3 +61,18 @@ a:hover {
     background-size: cover !important;
 	background-image: url("images/sheffieldfoodie1.jpg");
     -webkit-filter: blur(8px);
+}
+.btn-facebook {
+	background-color: #1A75FF;
+	color: white;
+	font-family: 'Lobster Two', cursive;;
+}
+.btn-twitter {
+	background-color : #4099FF;
+	color: white;
+	font-family: 'Lobster Two', cursive;
+}
+.btn-instagram {
+	color: white;
+	font-family: 'Lobster Two', cursive;
+}

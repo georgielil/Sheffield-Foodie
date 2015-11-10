@@ -63,3 +63,17 @@ h1 {
     background-image: url("http://urbed.coop/sites/default/files/West-Bar-Aerial.jpg");
     -webkit-filter: blur(2.5px);
 }
+.btn-facebook {
+  background-color: #1A75FF;
+  color: white;
+  font-family: 'Lobster Two', cursive;;
+}
+.btn-twitter {
+  background-color : #4099FF;
+  color: white;
+  font-family: 'Lobster Two', cursive;
+}
+.btn-instagram {
+  color: white;
+  font-family: 'Lobster Two', cursive;
+}

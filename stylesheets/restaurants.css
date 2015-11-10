@@ -68,3 +68,16 @@ ul {
 	margin: 0;
 	font-size: 20px;
 }
+.btn-facebook {
+	background-color: #1A75FF;
+	color: white;
+	font-family: 'Lobster Two', cursive;;
+}
+.btn-twitter {
+	background-color : #4099FF;
+	color: white;
+	font-family: 'Lobster Two', cursive;
+}
+.btn-instagram {
+	color: white;
+	font-family: 'Lobster Two', cursive;
