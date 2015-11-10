@@ -90,3 +90,8 @@ ul {
 	margin: 0;
 	font-size: 20px;
 }
+.btn-facebook {
+	background-color: #1A75FF;
+	color: white;
+	font-family: 'Lobster Two', cursive;;
+}
