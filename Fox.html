@@ -1,29 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 	<link href='dist/css/bootstrap.css' rel='stylesheet'>
   <link href='stylesheets/fox.css' rel='stylesheet'>
 	<script src="js/blur.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
-  <link href = 'bootstrap/css/bootstrap-social.css' rel='stylesheet'>"
+  <link href = 'bootstrap/css/bootstrap-social.css' rel='stylesheet'>
   <script src = "//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script> $(document).ready(main(){
-    $(".resize2").click(function(){
-        var div = $("#luckyfoximages");
-        div.animate({height: '300px', opacity: '0.4'}, "slow");
-        div.animate({width: '300px', opacity: '0.8'}, "slow");
-      });
-    });
-</script>
-<script> $(document).ready(function(){
-    $(".resize3").click(function(){
-        var div = $("#luckyfoximages");
-        div.animate({height: '300px', opacity: '0.4'}, "slow");
-        div.animate({width: '300px', opacity: '0.8'}, "slow");
-      });
-    });
+<script>
+$('img').on('click', function (){
+    $('body').append('<div id="dialog" title="Image"><img src="' + $(this).attr('src') + '" width="300" /></div>');
+    $('#dialog').dialog();
+});
 </script>
 </head>
 
@@ -72,11 +62,14 @@
     <div id="luckyfoximages">
       <div class='container-fluid'>
         <div class='row'>
+          <div class='box'>
           <div class='col-md-8'>
-            <div class="1">
-            <br><img src='images/luckyfox-exterior.jpg' class='resize2 img-responsive center-block'><br>
+            <br><img id="image1" src='images/luckyfox-exterior.jpg' class='resize2 img-responsive center-block'><br>
           </div>
           </div>
+          <div id="dialog" style="display: none;">
+            <img src="images/luckyfox-exterior.jpg">
+              </div>
           <div class='col-md-4'>
             <br><img src='images/luckyfox1.jpg' class='resize3 img-responsive center-block'><br>
           </div>
