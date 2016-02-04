@@ -68,13 +68,13 @@ a:hover {
   background-color: black;
   position: relative;
 }
-.resize{
+.resize {
 	width: 300px;
 	height: auto;
 	padding-top: 37px;
 }
 .resize2 {
-	width: 150px;
+	width: 300px;
 	height: auto;
 	padding-top: 37px;
 }
